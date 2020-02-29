@@ -21,7 +21,9 @@
 }
 
 #image{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #img-caption{
@@ -38,8 +40,6 @@
 
 #tribute-link{
     font-size: 18px;
-}
-
-a{
     color: hsl(170, 40%, 40%); 
 }
+
