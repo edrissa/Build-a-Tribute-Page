@@ -1,7 +1,45 @@
 #main{
-    margin: auto;
+    width: 1250px;
+    margin: 0 auto;
+    background-color: hsla(0, 6%, 77%, 0.1);
+}
+
+#title{
+    font-family: tahoma;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: hsl(0, 87%, 26%);
+    border-radius: 2px;
+} 
+
+#subtitle{
+    text-align: center; 
+}
+
+#img-div{
+    width: 1250px;
+}
+
+#image{
+    width: 100%;
 }
 
 #img-caption{
-    margin: auto;
+    text-align: center;
+    color: hsl(170, 40%, 40%); 
+}
+
+#tribute-info{
+    width: 1250px;
+    font-family: georgia;
+    font-size: 18px;
+    line-height: 22.5px;
+}
+
+#tribute-link{
+    font-size: 18px;
+}
+
+a{
+    color: hsl(170, 40%, 40%); 
 }
